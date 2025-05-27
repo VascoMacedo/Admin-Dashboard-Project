@@ -98,6 +98,9 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
+
+  grid-template-rows: 1fr;
+  height: 1vh;
 }
 
 .header {
@@ -178,7 +181,7 @@
 
 .sidebar-Container{
   display: grid;
-  grid-template-rows: 6fr 4fr;
+  grid-template-rows: 2fr 5fr 3fr;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
   gap: 15px;    
@@ -219,9 +222,6 @@
 
 
 
-
-
-
 .card-container2{    
   background-color: yellowgreen;
   display: grid;
@@ -237,4 +237,3 @@
   font-size: 5px;
   color: white;
 }
-
