@@ -65,6 +65,8 @@
 
 .article {
   background-color: #bccbde;
+
+  margin-top: -50px;
 }
 
 .article p {
@@ -290,7 +292,12 @@
   margin-top: 5px;
 }
 
-
+.testingText {
+  font-size: 25px;
+  color: black;
+  text-align: left;  
+  
+}
 
 button {
   padding: 10px;
@@ -307,6 +314,11 @@ button {
 
 #site-search {
   border-radius: 20px;
-  border: none;  
+  border: none;
   background-color: gainsboro;
+}
+
+.testingContainer{
+  display: grid;
+  grid-template-rows: 1fr 5fr;    
 }
