@@ -66,7 +66,7 @@
 .article {
   background-color: #bccbde;
 
-  margin-top: -50px;
+  margin-top: -50px;  
 }
 
 .article p {
@@ -171,10 +171,27 @@
 
 .article .card {
   height: 200px;
+
+  
+  padding-left: 5px;  
+  
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: orange;
+
+  border-radius: 10px;
 }
 
 .card p {
   padding: 5px;
+  text-align: left;
+  color: gray;
+}
+
+.card .title {  
+  text-align: left;
+  font-weight: bold;
+  color: black;
 }
 
 .footer {
