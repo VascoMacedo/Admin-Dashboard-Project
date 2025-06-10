@@ -167,6 +167,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
+
+  margin-top: -80px;
 }
 
 .article .card {
@@ -230,7 +232,7 @@
 }
 
 .article2 .card {
-  background-color: #C50208;
+  background-color: white;
   color: black;
   text-align: center;
 }
@@ -246,18 +248,19 @@
 }
 
 .card-container .card{
-  height: 70px;  
+  height: 70px;    
 }
 
 .card-container .card p {
-  font-size: 9px;
-  color: white;
+  font-size: 10px;
+  color: grey;
   text-align: left;
 }
 
 .card-container .card .title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;  
+  color: black;
 }
 
 
@@ -269,13 +272,20 @@
 }
 
 .card-container2 .card{
-  height: 40px;  
+  height: 40px;    
 }
 
 .card-container2 .card p {
-  font-size: 5px;
-  color: white;
+  font-size: 8px;
+  color: gray;
 }
+
+.card-container2 .card .title {
+  font-size: 10x;
+  font-weight: bold;  
+  color: black;
+}
+
 
 
 .imagemP{
