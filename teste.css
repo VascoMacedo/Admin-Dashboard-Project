@@ -272,18 +272,36 @@
 }
 
 .card-container2 .card{
-  height: 40px;    
+  height: 40px;
+  
+  display: grid;
+  grid-template-columns: 1fr 5fr;  
+}
+
+.card-container2 .card img{
+  margin-left: 5px; 
+  margin-right: 5px;
+}
+
+.card-container2 .card div{
+  height: 15px;
+  padding-top: 0px;
+  padding-bottom: 0%;
+  padding-left: 0%;
 }
 
 .card-container2 .card p {
-  font-size: 8px;
+  font-size: 9px;
   color: gray;
 }
 
 .card-container2 .card .title {
-  font-size: 10x;
+  font-size: 11px;
   font-weight: bold;  
   color: black;
+
+  padding-bottom: 0px;
+  
 }
 
 
