@@ -88,13 +88,13 @@
 }
 
 .article {
-  background-color: #bccbde;
+  background-color: gainsboro;
 
   margin-top: -50px;  
 }
 
 .article p {
-  font-size: 18px;
+  font-size: 38px;
   font-family: sans-serif;
   color: white;
   text-align: left;
@@ -109,11 +109,11 @@
 .card p {
   color: black;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .card .title {
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -230,7 +230,7 @@
   background-color: gainsboro;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 2px;
+  gap: 2px; 
 }
 
 .article2 {
@@ -272,6 +272,8 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 5px;
+
+  border-radius: 10px;
 }
 
 .card-container .card{
@@ -279,7 +281,7 @@
   
   border-bottom-style: dotted;
   border-bottom-color: #393f4d;
-  border-bottom-width: 1px;
+  border-bottom-width: 1px;  
 }
 
 .card-container .card p {
@@ -300,6 +302,8 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 3px;
+
+  border-radius: 10px;
 }
 
 .card-container2 .card{
@@ -307,6 +311,8 @@
   
   display: grid;
   grid-template-columns: 1fr 5fr;  
+
+  padding-left: 0px;
 }
 
 .card-container2 .card img{
