@@ -26,8 +26,16 @@
 }
 
 .sidebar {
-  background-color: #C50208;
+  background-color: rgb(43, 116, 226);  
+
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  gap: 25px;
+
+  padding-left: 0px;
 }
+
 
 .sidebar .photo {
   background-color: white;
@@ -39,21 +47,34 @@
 
 
 .sidebar .side-content {
-  background-color: white;
-  color: black;
-  font-size: 15px;
-  font-weight: normal;
+  background-color: rgb(43, 116, 226);
+  color: black;  
+  font-weight: bold;
 
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 4fr;  
+  
+  padding-bottom: 0%;
 }
 
+.sidebar .side-content img{
+  margin-left: 5px; 
+  margin-right: 5px;
+}
+
+.sidebar .side-content p{
+  /*padding: 15px;*/
+  font-size: 25px;
+  text-align: left;
+}
+
+
 .nav {
-  background-color: #C50208;
+  background-color: white;
 }
 
 .nav2 {
-  background-color: #02c529;
+  background-color: white;
 }
 
 .nav ul li {
@@ -67,13 +88,13 @@
 }
 
 .article {
-  background-color: #bccbde;
+  background-color: gainsboro;
 
   margin-top: -50px;  
 }
 
 .article p {
-  font-size: 18px;
+  font-size: 38px;
   font-family: sans-serif;
   color: white;
   text-align: left;
@@ -88,11 +109,11 @@
 .card p {
   color: black;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .card .title {
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -140,12 +161,6 @@
   list-style-type: none;
 }
 
-.sidebar {
-  grid-row: 1 / 2;
-  display: grid;
-  grid-template-rows: repeat(11, 1fr);
-  gap: 25px;
-}
 
 .side-content,
 .photo {
@@ -212,10 +227,10 @@
 
 
 .container2 {
-  background-color: beige;
+  background-color: gainsboro;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 2px;
+  gap: 2px; 
 }
 
 .article2 {
@@ -230,14 +245,17 @@
   grid-column: 1 / 2;
   grid-row: 1 / 4;
   gap: 15px;    
-  background-color: blueviolet;
+  background-color: rgb(43, 116, 226);
 }
 
 .nav-Container{
-  background-color: aquamarine;
+  background-color: white;
   display: grid;
   grid-template-rows: 1fr 1.5fr;
   gap: 5px;
+
+  padding-top: 0px;
+  padding-bottom: 0px; 
 }
 
 .article2 .card {
@@ -250,14 +268,20 @@
 
 
 .card-container{    
-  background-color: yellowgreen;
+  background-color: white;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 5px;
+
+  border-radius: 10px;
 }
 
 .card-container .card{
   height: 70px;    
+  
+  border-bottom-style: dotted;
+  border-bottom-color: #393f4d;
+  border-bottom-width: 1px;  
 }
 
 .card-container .card p {
@@ -274,10 +298,12 @@
 
 
 .card-container2{    
-  background-color: yellowgreen;
+  background-color: white;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 3px;
+
+  border-radius: 10px;
 }
 
 .card-container2 .card{
@@ -285,6 +311,8 @@
   
   display: grid;
   grid-template-columns: 1fr 5fr;  
+
+  padding-left: 0px;
 }
 
 .card-container2 .card img{
@@ -333,15 +361,24 @@
   margin-right: 20px;  
 }
 
+.primeiraImagem{
+  width: 50px;
+  height: 50px;    
+  border-radius: 20px;
+  
+  margin-left: 20px;
+  margin-right: 20px;  
+}
+
 .smallerText {
   font-size: 15px;
-  color: white;
+  color: black;
   margin-left: -80px;
 }
 
 .biggerText{
   font-size: 25px;
-  color: white;
+  color: black;
   margin-left: -5px;
   margin-top: 5px;
 }
@@ -376,4 +413,3 @@ button {
   display: grid;
   grid-template-rows: 1fr 5fr;    
 }
-
